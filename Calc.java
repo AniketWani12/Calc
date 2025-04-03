@@ -14,10 +14,14 @@ public class Calc{
 		while(!exit) {
 			System.out.println("Choose the operation to perform "
 					+ "1. add"
+					+ "2. multi"
 					+ "0. exit");
 			switch (sc.nextInt()) {
 			case 1:
 				System.out.println("the addition of two number"+ num1 +" "+ num2 +" is "+ (num1 + num2));
+				break;
+			case 2:
+				System.out.println("the multiplication of two number"+ num1 +" "+ num2 +" is "+ (num1 * num2));
 				break;
 			case 0:
 				exit = true
