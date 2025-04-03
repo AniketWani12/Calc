@@ -15,6 +15,7 @@ public class Calc{
 			System.out.println("Choose the operation to perform "
 					+ "1. add"
 					+ "2. sub"
+					+ "3. multi"
 					+ "0. exit");
 			switch (sc.nextInt()) {
 			case 1:
@@ -22,6 +23,9 @@ public class Calc{
 				break;
 			case 2:
 				System.out.println("the sustraction of two number"+ num1 +" "+ num2 +" is "+ (num1 - num2));
+				break;
+			case 3:
+				System.out.println("the multiplication of two number"+ num1 +" "+ num2 +" is "+ (num1 * num2));
 				break;
 			case 0:
 				exit = true
